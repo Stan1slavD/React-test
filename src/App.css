@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.menuLink {
+  color: #e1e1e1;
+  padding-left: 12px;
+}
+.menuLink:hover {
+  background: #1f1f1f;
+  border-radius: 6px;
+  color: #e1e1e1;
+}
+
+.historyLink {
+  margin-top: 20px;
+}
+
+.homeLink {
+  margin-top: 40px;
+}
+
+.hr {
+  margin-top: 20px;
+  color: #9a9a9a;
+}
+
+.imgMenu {
+  margin-right: 15px;
+}
