@@ -13,27 +13,35 @@ const LogoText = styled.p`
   line-height: 44px;
   color: #f33f3f;
   margin-top:19px;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
 `;
 
 const CreateWLButton = styled.button`
   background: #f33f3f;
   border-radius: 6px;
   border: none;
-  width: 230px;
+  min-width: 230px;
+  width:80%;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
 `;
 const GuestButton = styled.button`
   border: 1px solid #e1e1e1;
   border-radius: 4px;
   background: inherit;
   color: #e1e1e1;
-  width: 230px;
+  width: 80%;
   padding-top: 10px;
   padding-bottom: 10px;
   position:absolute;
   bottom:30px;
+  left:10%;
+  right:10%;
 `;
 
 const linkStyle = {
@@ -47,6 +55,8 @@ const linkStyle = {
   padingLeft: "12px",
   paddingTop: "10px",
   paddingBottom: "10px",
+  minWidth:"230px",
+  width:"80%"
 };
 
 const Search = styled.div`
@@ -60,9 +70,12 @@ const Search = styled.div`
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  width: 230px;
+  min-width: 230px;
+  width:80%;
   margin-top:20px;
-  padding-left:12px
+  padding-left:12px;
+  margin-left:auto;
+  margin-right:auto;
 `;
 
 const SearchField = styled.input`
@@ -72,6 +85,8 @@ const SearchField = styled.input`
   outline-offset: 0;
   border: 0;
   margin-left: 17px;
+  margin-left:auto;
+  margin-right:auto;
 `;
 
 const SideBarContainer = styled.div`
@@ -87,7 +102,7 @@ function SideBar() {
   return (
     <>
       <SideBarContainer>
-        <Stack style={{width:"230px",  marginLeft: "auto",
+        <Stack style={{marginLeft: "auto",
         marginRight: "auto"}}>
           <LogoText>Watchlists</LogoText>
           <Search>
@@ -124,7 +139,7 @@ function SideBar() {
           </Link>
           <CreateWLButton>+ Create watchlist</CreateWLButton>
           <hr className="hr"/>
-          <p>My List</p>
+          <p style={{marginLeft:"10%"}}>My List</p>
           <GuestButton>GUEST ...</GuestButton>
         </Stack>
       </SideBarContainer>
