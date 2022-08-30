@@ -7,6 +7,7 @@ import RibbonSVG from "../icons/ribbon";
 import CheckedSVG from "../icons/checked";
 import Card from "../components/card";
 import CardContainer from "../components/cards";
+import SearchBar from "../components/search";
 function Home() {
   return (
     <Page background="#191919">
@@ -28,6 +29,7 @@ function Home() {
           details or <CheckedSVG /> to mark the movie as watched.
         </p>
       </Title>
+      <SearchBar/>
       <CardContainer>
         <Card></Card>
         <Card></Card>
