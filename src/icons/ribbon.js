@@ -1,6 +1,6 @@
 import React from "react";
 
-function RibbonSVG() {
+function RibbonSVG(props) {
   return (
     <svg
       width="26"
@@ -8,6 +8,7 @@ function RibbonSVG() {
       viewBox="0 0 26 38"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={props.class}
     >
       <g filter="url(#filter0_d_92_814)">
         <path

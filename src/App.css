@@ -93,3 +93,9 @@
   margin-top: 7px;
   margin-left: 13px;
 }
+
+.ribbonSVG{
+  position: absolute;
+  top: 0;
+  left:0;
+}

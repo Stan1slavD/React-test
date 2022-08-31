@@ -31,7 +31,7 @@ function Home() {
       </Title>
       <SearchBar/>
       <CardContainer>
-        <Card></Card>
+        <Card fs="10px"></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
