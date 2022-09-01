@@ -6,8 +6,10 @@ const StyledTitle = styled.h1`
   border: ${(props) => props.border || "none"};
   border-color: ${(borderColor) => borderColor};
   padding: ${(padding) => padding || "0"};
-  border-radius: ${(borderRadius) => borderRadius || "0"}
-  margin: ${(props) => props.margin || "0"}
+  border-radius: ${(borderRadius) => borderRadius || "0"};
+  margin: ${(props) => props.margin || "0"};
+  font-size:${(props) => props.fs};
+  
   ${(props) =>
     props.primary &&
     css`
